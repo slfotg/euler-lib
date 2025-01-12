@@ -1,0 +1,20 @@
+[package]
+name = "euler-mod"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sam Foster <slfotg@gmail.com>"]
+description = "Safe modular arithmetic libary"
+license = "MIT"
+
+include = [
+    "Cargo.toml",
+    # "LICENSE.txt",
+    # "README.md",
+    # "doc/**/*.md",
+    "src/**/*.rs",
+    "tests/*.rs",
+]
+
+[dependencies]
+num-traits = "0.2.19"
+num-integer = "0.1.46"
